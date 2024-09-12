@@ -105,16 +105,13 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .lista-nav-pag li {
   font-size: 25px;
   display: block;
   padding: 10px;
-}
-
-.lista-nav-pag a {
-  text-decoration: none;
 }
 
 .lista-nav-pag a:hover {
