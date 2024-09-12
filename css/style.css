@@ -108,10 +108,13 @@
 }
 
 .lista-nav-pag li {
-  text-decoration: none;
   font-size: 25px;
   display: block;
   padding: 10px;
+}
+
+.lista-nav-pag a {
+  text-decoration: none;
 }
 
 .lista-nav-pag a:hover {
