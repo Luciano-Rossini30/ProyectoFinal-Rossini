@@ -1,0 +1,23 @@
+//mixin//
+@mixin p-text-modification 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 5px 5px 8px $text-shadow-color;
+  font-size: 30px;
+  color: $color-black;
+}
+
+//keyframes//
+@keyframes bounces 
+{
+    0% 
+    {
+      transform: translateY(-100%);
+    }
+    100% 
+    {
+      transform: translateY(0);
+    }
+}

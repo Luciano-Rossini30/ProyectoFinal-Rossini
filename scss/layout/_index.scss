@@ -1,0 +1,138 @@
+/* body */
+body {
+    background-image: url(/images/body.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* header */
+  .header {
+    background-color: #333;
+  }
+  
+  /* titulo */
+  .titulo {
+    font-size: 50px;
+    $color-black: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #00FF00, #00BFFF, #0000FF);
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .intro::first-letter {
+    @include p-text-modification;
+    font-size: 70px;
+    color: yellow;
+    background-color: violet;
+    
+    
+  }
+  
+  .intro 
+  {
+    color: $color-white;
+    font-size: 30px;
+
+  }
+  
+  .titulo-de-aproximacion {
+    @include p-text-modification;
+    color: $color-white;
+    font-size: 50px;
+    padding: 40px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .gameplay-supp {
+    color: $color-white;
+    font-size: 20px;
+    padding-top: 150px;
+    text-shadow: 5px 5px 8px $text-shadow-color;
+  }
+  
+  //Anidacion//
+  .p-supp {
+    @include p-text-modification;
+    color: $color-white;
+    font-size: 40px;
+    padding-top: 60px;
+  }
+  .p-supp_importante {
+    text-shadow: 5px 5px 8px $text-shadow-color;
+    font-size: 25px;
+    padding-top: 150px;
+    color: $color-white;
+    padding-bottom: 200px
+    }
+    .li-supp{
+      padding-top: 70px
+    }
+    //MIXIN//
+  .p-grid {
+    @include p-text-modification;
+    padding-bottom: 60px;
+    color: red;
+  }
+  //anidacion//
+  
+  .engage {
+    @include p-text-modification;
+    color: $color-white;
+    text-decoration: underline;
+    font-size: 50px;
+    padding: 60px;
+    text-align: center;
+    
+  }
+  
+
+  /* yo */
+  .autor {
+    border: gray solid 10px;
+    background-color: rgb(90, 89, 89);
+    padding-bottom: 250px;
+  }
+  /* yo */
+  
+  /* flex */
+  .icono-autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+  
+  .icono-autor img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+    border: 1px solid black;
+  }
+  
+  .p-autor {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 7px 7px 9px white;
+  }
+
+
+  /* p engage 2da pagina */
+.supp-engage {
+  @include p-text-modification;
+    color: $color-white;
+    font-size: 30px;
+    padding: 60px;
+    text-align: center;
+  }
+
+ 
+
+  
