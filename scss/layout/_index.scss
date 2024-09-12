@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-image: url(/images/body.webp);
+    background-image: url('https://luciano-rossini30.github.io/ProyectoFinal-Rossini/images/body.webp');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -98,13 +98,18 @@ body {
   /* yo */
   
   /* flex */
-  .icono-autor {
+  .icono-autor 
+  {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
+    background-image: url('https://luciano-rossini30.github.io/ProyectoFinal-Rossini/images/icono-autor.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
   }
-  
+    
   .icono-autor img {
     display: flex;
     margin: 0 auto;
