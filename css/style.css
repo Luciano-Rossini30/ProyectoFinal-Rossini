@@ -107,14 +107,12 @@
   flex-direction: column;
 }
 .lista-nav-pag li {
-  color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2px;
   display: block;
   padding: 10px;
-  transition: background-color 0.3s, color 0.3s;
 }
-.lista-nav-pag:hover {
+.lista-nav-pag li :hover {
   color: yellow;
 }
 
