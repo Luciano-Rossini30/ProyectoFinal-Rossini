@@ -112,7 +112,7 @@
   display: block;
   padding: 10px;
 }
-.lista-nav-pag li a:hover {
+.lista-nav-pag li:hover {
   color: yellow;
 }
 
